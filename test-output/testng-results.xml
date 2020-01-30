@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50955" started-at="2020-01-30T20:14:07Z" finished-at="2020-01-30T20:14:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="50955" started-at="2020-01-30T20:14:07Z" finished-at="2020-01-30T20:14:58Z">
+      <class name="testclasses.Verify_email_function">
+        <test-method status="PASS" signature="commonSetUp()[pri:0, instance:testclasses.Verify_email_function@6767c1fc]" name="commonSetUp" is-config="true" duration-ms="10090" started-at="2020-01-30T20:14:07Z" finished-at="2020-01-30T20:14:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonSetUp -->
+        <test-method status="PASS" signature="testCase1(java.lang.String, java.lang.String)[pri:0, instance:testclasses.Verify_email_function@6767c1fc]" name="testCase1" duration-ms="15077" started-at="2020-01-30T20:14:17Z" data-provider="userCredentials" finished-at="2020-01-30T20:14:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium_user1@protonmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mcl12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="commonTearDown()[pri:0, instance:testclasses.Verify_email_function@6767c1fc]" name="commonTearDown" is-config="true" duration-ms="873" started-at="2020-01-30T20:14:32Z" finished-at="2020-01-30T20:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonTearDown -->
+        <test-method status="PASS" signature="commonSetUp()[pri:0, instance:testclasses.Verify_email_function@6767c1fc]" name="commonSetUp" is-config="true" duration-ms="9230" started-at="2020-01-30T20:14:33Z" finished-at="2020-01-30T20:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonSetUp -->
+        <test-method status="PASS" signature="testCase1(java.lang.String, java.lang.String)[pri:0, instance:testclasses.Verify_email_function@6767c1fc]" name="testCase1" duration-ms="14772" started-at="2020-01-30T20:14:42Z" data-provider="userCredentials" finished-at="2020-01-30T20:14:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium_user2@protonmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mcl12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="commonTearDown()[pri:0, instance:testclasses.Verify_email_function@6767c1fc]" name="commonTearDown" is-config="true" duration-ms="883" started-at="2020-01-30T20:14:57Z" finished-at="2020-01-30T20:14:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonTearDown -->
+      </class> <!-- testclasses.Verify_email_function -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
